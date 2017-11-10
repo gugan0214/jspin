@@ -1,0 +1,470 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 401018 */
+    src: url('https://at.alicdn.com/t/font_401018_10ossk1nx9zr529.eot');
+    src: url('https://at.alicdn.com/t/font_401018_10ossk1nx9zr529.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_401018_10ossk1nx9zr529.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_401018_10ossk1nx9zr529.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_401018_10ossk1nx9zr529.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.toubu{
+    width: 100%;
+    height: 40.8px;
+    background-color: orange;
+}
+.toubu-neikuan{
+    width: 1260px;
+    height: 100%;
+    /* background-color: orange; */
+    margin: 0 auto;
+}
+.neikuan-box{
+    width: 95.750px;
+    height: 100%;
+    /* background-color: yellow; */
+    margin-right: 20px;
+    float: left;
+}
+.neikuan-box1{
+    width: 155.15px;
+    height: 100%;
+    /* background-color: yellow; */
+    margin-right: 20px;
+    float: left;
+}
+.neikuan-box2{
+    width: 77.912px;
+    height: 100%;
+    /* background-color: yellow; */
+    margin-right: 20px;
+    float: left;
+}
+.neikuan-box a{
+    font-size: 12px;
+    line-height: 40.8px;
+    color: white;
+    float: left;
+}
+.neikuan-box1 a{
+    font-size: 14px;
+    line-height: 40.8px;
+    color: white;
+    float: left;
+}
+.neikuan-box2 a{
+    font-size: 12px;
+    line-height: 40.8px;
+    color: white;
+}
+.neikuan-box h4{
+    font-size: 12px;
+    line-height: 40.8px;
+    /* margin-left: 13px; */
+    color: white;
+    float: right;
+
+}
+.neikuan-box1 h4{
+    font-size: 12px;
+    line-height: 40.8px;
+    /* margin-left: 13px; */
+    color: white;
+    float: right;
+
+}
+.neikuan-box2 h4{
+    font-size: 12px;
+    line-height: 40.8px;
+    /* margin-left: 13px; */
+    color: white;
+    float: right;
+
+}
+.neikuan-box3{
+    width: 45.462px;
+    height: 100%;
+    /* background-color: yellow; */
+    float: right;
+}
+.neikuan-box3 h4{
+    font-size: 12px;
+    line-height: 40.8px;
+    color: white;
+}
+.daohang{
+    width: 1260px;
+    height: 173.6px;
+    /* background-color: purple; */
+    margin: 0 auto;
+    position: relative;
+}
+.logo-img{
+    width: 218.837px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.daohang-list{
+    width: 977px;
+    height: 60px;
+    /*background-color: pink;*/
+    position: absolute;
+    right: 40px;
+    bottom: 13.6px;
+    float: right;
+}
+.tiao{
+    width: 35px;
+    height: 6px;
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+}
+.daohang-list a{
+    font-size: 18px;
+    line-height: 60px;
+    margin-right: 62px;
+    color: orange;
+    float: left;
+
+}
+.daohang-list a:nth-child(9){
+    margin-right:0;
+}
+.weibu{
+    width: 100%;
+    height: 267.2px;
+    background-color: #fafafa;
+    float: left;
+}
+.weibu-shang{
+    width: 1024px;
+    height: 185.6px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.weibu-box{
+    width: 330.75px;
+    height: 100%;
+    /* background-color: yellow; */
+    float: left;
+}
+.weibu-box h4{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.weibu-box h5{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 6px;
+
+}
+.weibu-box1{
+    width: 362.5px;
+    height: 100%;
+    /* background-color: yellow; */
+    float: left;
+}
+.weibu-box1 h4{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.weibu-xia{
+    width: 1024px;
+    height: 20.8px;
+    /* background-color: blue; */
+    margin: 0 auto;
+
+}
+.weibu-xia h4{
+    font-size: 12px;
+    text-align: center;
+    line-height: 20.8px;
+}
+.neirong{
+    width: 1259px;
+    height: 3700.8px;
+    margin: 0 auto;
+    /*border: 1px solid #ccc;*/
+}
+.youbu{
+    width: 238px;
+    height: 100%;
+    padding: 9px 9px 39px 9px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    float: left;
+}
+.zuobu{
+    width: 997px;
+    height: 100%;
+    padding: 9px 9px 39px 9px;
+    border: 1px solid #ccc;
+    float: left;
+}
+.youshang{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.shangyou{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid orange;
+}
+.youxia{
+    width: 100%;
+    height: 125.8px;
+    margin-top: 50px;
+    /*background: red;*/
+}
+.youxia1{
+    width: 100%;
+    height: 28px;
+    padding: 4px 9px 4px 34px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    position: relative;
+}
+.youxia2{
+    margin-bottom: 20px;
+}
+.youxia1 .iconfont{
+    display: block;
+    width: 20px;
+    height: 20px;
+    color: black;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+}
+input{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+.jiaqian{
+    width: 200px;
+    height: 20px;
+    margin: 0 10px 15px 10px;
+    /*background: blue;*/
+}
+.jiaqian h4:first-child{
+    color: #ccc;
+    float: left;
+}
+.jiaqian h4:last-child{
+    color: #ccc;
+    float: right;
+}
+.hua{
+    width: 100%;
+    height: 10px;
+    background: #797b6b;
+    border-radius: 10px;
+    position: relative;
+}
+.yuanquan1{
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border: 5px solid black;
+    border-radius: 50%;
+    /*float: left;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.yuanquan2{
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border: 5px solid black;
+    border-radius: 50%;
+    /*float: right;*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.zuobian{
+    width: 265.913px;
+    height: 35px;
+    float: left;
+    /*background: red;*/
+    position: relative;
+}
+.zuoshang{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.zuobian h4{
+    line-height: 35px;
+}
+.zuokuang{
+    width: 130px;
+    height: 30px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 0;
+    top: 2.5px;
+}
+.zuokuang h4{
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.jiantou{
+    width: 30px;
+    height: 30px;
+    background: orange;
+    position: absolute;
+    right: 0;
+    top: -0.5px;
+}
+.jiantou a{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+}
+.youbian{
+    width: 65px;
+    height: 30px;
+    /*background: red;*/
+    float: right;
+    margin-top: 5px;
+}
+.youbian1{
+    width: 30px;
+    height: 30px;
+    background: orange;
+    margin-right: 5px;
+    float: left;
+}
+.youbian1 a{
+    font-size: 18px;
+    margin-left: 6px;
+    line-height: 30px;
+    color: white;
+}
+.youbian2{
+    margin-right: 0;
+    background: #ccc;
+}
+.charu{
+    height: 50px;
+}
+.youlist{
+    width: 100%;
+    height: 300px;
+    /*background: red;*/
+    /*margin-top: 50px;*/
+    position: relative;
+    margin-bottom: 20px;
+}
+.listimg{
+    width: 330px;
+    height: 300px;
+    /*background: pink;*/
+    padding: 0 15px;
+    float: left;
+}
+.listwenzi{
+    width: 646px;
+    height: 100%;
+    /*background: yellow;*/
+    float: left;
+}
+.listwenzi h3{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    color: rgb(105, 105, 105);
+    font-family: 微软雅黑;
+    /*margin-bottom: 10px;*/
+}
+.xuxian{
+    width: 550px;
+    height: 10px;
+    border-bottom: 1px dashed #cccccc;
+}
+.wenzixiao{
+    height: 29.6px;
+    font-size: 14px;
+    line-height: 29.6px;
+    color: #696969;
+}
+.wenzixia{
+    width: 100%;
+    height: 69.6px;
+    margin-top: 5px;
+}
+.wenzixia1{
+    height: 19.2px;
+    font-size: 14px;
+    line-height: 19.2px;
+    color: #ccc;
+}
+.xiakuang{
+    width: 212.575px;
+    height: 39.2px;
+    background: orange;
+    color: white;
+    font-size: 14px;
+    line-height: 39.2px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+span{
+    font-size: 18px;
+    position: absolute;
+    right: 13px;
+    top:20px;
+}
+h1{
+    font-size: 8px;
+    position: absolute;
+    right: 0px;
+    top:28px;
+}
+.zuixia{
+    width: 100%;
+    height: 60px;
+    /*background: yellow;*/
+    border-top: 1px solid #cccccc;
+}
+.fangkuang{
+    width: 30px;
+    height: 30px;
+    float: right;
+    border: 1px solid #cccccc;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #696969;
+    line-height: 30px;
+    text-align: center;
+}

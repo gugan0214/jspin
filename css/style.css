@@ -1,0 +1,349 @@
+/*.section{*/
+    /*font-size: 80px;*/
+    /*color: black;*/
+    /*text-align: center;*/
+/*}*/
+.slide{
+    font-size: 80px;
+    color: black;
+    text-align: center;
+}
+#menu {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    width: 90px;
+    margin: -160px 0 0;
+    padding: 0;
+    list-style-type: none;
+    z-index: 70;
+}
+#menu li {
+    margin-top: 10px;
+    font: 14px "微软雅黑";
+}
+#menu a {
+    display: block;
+    padding: 10px 0;
+    background-color: #fff;
+    color: #0074EA;
+    text-align: center;
+    text-decoration: none;
+}
+#menu .active a {
+    color: #fff;
+    background-color: rgb(0, 116, 234);
+}
+.section:first-child{
+    position: relative;
+}
+/*.section:nth-child(4){*/
+    /*background: url("../img/fengjing.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
+.section:nth-child(3){
+    background: url("../img/yuzhou.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box:nth-child(4){
+    display: flex;
+    justify-content: space-around;
+}
+
+.zhezhao{
+    width: 100%;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;
+    top:0;
+    font-size: 100px;
+    line-height: 800px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+.zhezhao h1{
+    font-size: 70px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -140px;
+    margin: auto;
+    font-weight: bold;
+}
+.zhezhao h1{
+    animation: play 4s linear infinite;
+}
+@keyframes play {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+#mydiv{
+    width: 100%;
+    height: 100%;
+}
+.zhezhao1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+.ziwo{
+    font-size: 50px;
+    color: white;
+    /*margin-top: 60px;*/
+    position: absolute;
+    top:60px;
+    right: 0;
+    left: 0px;
+    margin: auto;
+    text-align: center;
+    font-family:"STHupo", Arial, Helvetica, sans-serif;
+    /*display: none;*/
+}
+@keyframes topIn {
+    0%{
+        top: -100px;
+    }
+    100%{
+        top: 60px;
+    }
+}
+.topIn{
+    /*display: block !important;*/
+    animation: topIn 2s forwards;
+}
+@keyframes bottomIn {
+    0%{
+        margin-bottom: -650px;
+    }
+    100%{
+        margin-bottom: 150px;
+    }
+}
+.bottomIn{
+    /*display: block !important;*/
+    animation: bottomIn 2s forwards;
+}
+.imgLeft{
+    width: 350px;
+    height: 550px;
+    background: pink;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+/*3d场景*/
+.sence{
+    width: 500px;
+    height: 500px;
+    /*border: 1px red solid;*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    /* 设置观察者的角度 */
+    perspective-origin: top left;
+    /* 设置观察者的位置 */
+    perspective: 1800px;
+}
+.sence ul{
+    width: 350px;
+    height: 350px;
+    margin: 75px;
+    /* background-color: yellow; */
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 3s linear;
+}
+.sence ul li{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 2s linear;
+}
+.sence ul .behind{
+    background: url("../img/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sence ul .front{
+    background: url("../img/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sence ul .left{
+    background: url("../img/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sence ul .right{
+    background: url("../img/4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sence ul .top{
+    background: url("../img/5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sence ul .bottom{
+    background: url("../img/6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sence:hover .left{
+    transform: translateX(-175px) rotateY(90deg);
+    background-color: red;
+    box-shadow: 0 0 10px 15px white;
+}
+.sence:hover .right{
+    transform: translateX(175px) rotateY(90deg);
+    background-color: pink;
+    box-shadow: 0 0 10px 15px white;
+}
+.sence:hover .top{
+    transform: translateY(-175px) rotateX(90deg);
+    background-color: blue;
+    box-shadow: 0 0 10px 15px white;
+}
+.sence:hover .bottom{
+    transform: translateY(175px) rotateX(90deg);
+    background-color: purple;
+    box-shadow: 0 0 10px 15px white;
+}
+.sence:hover .front{
+    transform: translateZ(-175px);
+    background-color: green;
+    box-shadow: 0 0 10px 15px white;
+}
+.sence:hover .behind{
+    transform: translateZ(175px);
+    background-color: orange;
+    box-shadow: 0 0 10px 15px white;
+}
+.sence:hover ul{
+    transform: rotate3d(1, 0, 1, 360deg)
+}
+/*框内旋转*/
+.box1{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+.imgBox{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    background-image: url("../img/datoutie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.yinying{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    transition: all 2s ease;
+}
+.box1:hover .yinying{
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+.box1:hover .kuang{
+    transform: rotate(180deg)
+}
+.kuang{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 20px #b7fff0 solid;
+    border-top-color: #f4ac3f;
+    border-left-color: #f4ac3f;
+    transition: all 1s ease;
+}
+.jieshao1,.jieshao2{
+    width: 250px;
+    height: 400px;
+    /*background: black;*/
+    /*margin-left: 100px;*/
+    position: absolute;
+    top:125px;
+}
+.jieshao1{
+    left: 180px;
+}
+.jieshao2{
+    right: 180px;
+}
+.jieshao1 h1{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-family:"STHupo", Arial, Helvetica, sans-serif;
+}
+.jieshao2 h1{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-family:"STHupo", Arial, Helvetica, sans-serif;
+}
+@keyframes leftIn {
+    0%{
+        left: -250px;
+    }
+    100%{
+        left:180px;
+    }
+}
+.leftIn{
+    animation: leftIn 2s forwards;
+}
+@keyframes rightIn {
+    0%{
+        right: -250px;
+    }
+    100%{
+        right:180px;
+    }
+}
+.rightIn{
+    animation: rightIn .5s forwards;
+}
+.zhezhao4{
+    width: 100%;
+    height: 100%;
+    /*background: red;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+

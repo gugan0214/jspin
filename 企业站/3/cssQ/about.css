@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 401517 */
+    src: url('https://at.alicdn.com/t/font_401517_dtz167mnhgtfyldi.eot');
+    src: url('https://at.alicdn.com/t/font_401517_dtz167mnhgtfyldi.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_401517_dtz167mnhgtfyldi.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_401517_dtz167mnhgtfyldi.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_401517_dtz167mnhgtfyldi.svg#iconfont') format('svg');
+}
+.dingbu{
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+    padding: 0 40px;
+    font-size: 12px;
+}
+.dingbu li{
+    display: inline;
+    margin-right: 20px;
+    line-height: 40px;
+    font-size: 12px;
+    color: white;
+}
+.kaoyou{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.list{
+    width: 100%;
+    height: 174px;
+    background-color: white;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    width: 218.828px;
+    height: 154px;
+    background-color: white;
+    /* background-image: url('../img/BQ.png'); */
+    /* background-size: 100%; */
+}
+.logo-xiaoping{
+    width: 218.828px;
+    height: 154px;
+    background-color: white;
+    background-image: url('../imgQ/BQ.png');
+    background-size: 100%;
+    margin: 0 auto;
+}
+.shouye{
+    /* max-width: 750px; */
+    /* height: 60px; */
+    background-color: white;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.shouye-guding{
+    /* width: 880px; */
+}
+.shouye-xiao{
+    width: 47px;
+    height: 44px;
+    position: absolute;
+    top: 47px;
+    right: 0;
+    background-color: white;
+}
+.shouye-xiao a{
+    font-size: 35px;
+}
+.xiaohezi{
+    max-width: 56px;
+    height: 60px;
+    background-color: white;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    border-bottom: 5px solid white;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: orange;
+}
+.xiaohezi1{
+    background-color: white;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    border-bottom: 5px solid orange;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 60px;
+    color: orange;
+}
+.xiaohezi a{
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 60px;
+    color: orange;
+}
+
+header{
+    width: 100%;
+    height: 545px;
+    background-color: black;
+    padding: 20px 40px 0 40px;
+    overflow: hidden;
+
+}
+/*中部开始*/
+.all{
+    width: 1349px;
+    height: 500px;
+    margin-top: 20px;
+}
+.zhongtop{
+    width: 100%;
+    height: 82px;
+    text-align: center;
+    line-height: 82px;
+    font-family: "微软雅黑", "苹方", "黑体";
+    font-weight: bold;
+    font-size: 24px;
+    color: #dd9933;
+}
+.wenzibig{
+    width: 512px;
+    height: 419px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    float: left;
+    color:#696969;
+}
+.wenz-nei{
+    width: 1024px;
+    height: 100%;
+    margin:0 auto;
+}
+.wenz{
+    margin-bottom: 21px;
+}
+.jia{
+    margin-top: 20px;
+}
+.big-right{
+    width: 512px;
+    height: 212px;
+    float: right;
+}
+.big-tu{
+    width: 300px;
+    height: 205px;
+    margin:0 auto;
+}
+.big-tu img{
+    width: 100%;
+    height: 100%;
+}
+/*底部开始*/
+footer{
+    height: 300px;
+    padding-top: 40px;
+    background-color: #fafafa;
+}
+.dibu-nei{
+     width: 1024px;
+    height: 100%;
+    padding: 0 40px;
+    margin: 0 122.5px;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+.dibu-san{
+    height: 100%;
+    /* margin: 0 5.109px 20px 5.109px; */
+    /* background-color: black; */
+    padding: 10px;
+}
+.dibu-san h1{
+    width: 100%;
+    height: 20%;
+    /* background-color: white; */
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+    font-family: 微软雅黑;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+}
+.dibu-san a{
+    width: 100%;
+    height: 15%;
+    /* background-color: white; */
+    color: #555;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+.jiewei{
+    width: 100%;
+    height: 39px;
+    /* background-color: purple; */
+    margin-top: 50px;
+}
+.jiewei-da{
+    /* width: 1269px; */
+    height: 100%;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.jiewei-da h1{
+    width: 100%;
+    height: 50%;
+    /* background-color: white; */
+    text-align: center;
+    font-size: 12px;
+}
+
+
+

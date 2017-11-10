@@ -1,0 +1,363 @@
+/*
+* @Author: l
+* @Date:   2017-09-14 17:41:25
+* @Last Modified by:   l
+* @Last Modified time: 2017-09-25 00:09:09
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 401018 */
+  src: url('http://at.alicdn.com/t/font_401018_937nw33hjd3oko6r.eot');
+  src: url('http://at.alicdn.com/t/font_401018_937nw33hjd3oko6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401018_937nw33hjd3oko6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401018_937nw33hjd3oko6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401018_937nw33hjd3oko6r.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.toubu{
+	width: 100%;
+	height: 40.8px;
+	background-color: orange;
+}
+.toubu-neikuan{
+	width: 1260px;
+	height: 100%;
+	/* background-color: orange; */
+	margin: 0 auto;
+}
+.neikuan-box{
+	width: 95.750px;
+	height: 100%;
+	/* background-color: yellow; */
+	margin-right: 20px;
+	float: left;
+}
+.neikuan-box1{
+	width: 155.15px;
+	height: 100%;
+	/* background-color: yellow; */
+	margin-right: 20px;
+	float: left;
+}
+.neikuan-box2{
+	width: 77.912px;
+	height: 100%;
+	/* background-color: yellow; */
+	margin-right: 20px;
+	float: left;
+}
+.neikuan-box a{
+	font-size: 12px;
+	line-height: 40.8px;
+	color: white;
+	float: left;
+}
+.neikuan-box1 a{
+	font-size: 14px;
+	line-height: 40.8px;
+	color: white;
+	float: left;
+}
+.neikuan-box2 a{
+	font-size: 12px;
+	line-height: 40.8px;
+	color: white;
+}
+.neikuan-box h4{
+	font-size: 12px;
+	line-height: 40.8px;
+	/* margin-left: 13px; */
+	color: white;
+	float: right;
+
+}
+.neikuan-box1 h4{
+	font-size: 12px;
+	line-height: 40.8px;
+	/* margin-left: 13px; */
+	color: white;
+	float: right;
+
+}
+.neikuan-box2 h4{
+	font-size: 12px;
+	line-height: 40.8px;
+	/* margin-left: 13px; */
+	color: white;
+	float: right;
+
+}
+.neikuan-box3{
+	width: 45.462px;
+	height: 100%;
+	/* background-color: yellow; */
+	float: right;
+}
+.neikuan-box3 h4{
+	font-size: 12px;
+	line-height: 40.8px;
+	color: white;
+}
+.daohang{
+	width: 1260px;
+	height: 173.6px;
+	/* background-color: purple; */
+	margin: 0 auto;
+	position: relative;
+}
+.logo-img{
+	width: 218.837px;
+	height: 150px;
+	background-color: white;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.daohang-list{
+	width: 800px;
+	height: 60px;
+	/*background-color: pink;*/
+	position: absolute;
+	right: 40px;
+	bottom: 13.6px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.daohang-list a{
+	font-size: 16px;
+	line-height: 60px;
+	/*margin-right: 62px;*/
+	color: orange;
+	float: left;
+	
+}
+.daohang-list a:first-child{
+	border-bottom: 2px solid orange;
+}
+.daohang-list a:hover{
+	border-bottom: 2px solid orange;
+}
+.banner{
+	width: 1260px;
+	height: 512px;
+	background-color: pink;
+	margin: 0 auto;
+	margin-top: 15px;
+	border: 8px black solid;
+	position: relative;
+}
+.zhezhao{
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.zhezhao h4{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 10px;
+	left: 13px;
+}
+.zhezhao h5{
+	color: white;
+	font-size: 13px;
+	position: absolute;
+	bottom: 6px;
+	left: 13px;
+}
+.lunbodian{
+	width: 150px;
+	height: 20.8px;
+	/* background-color: pink; */
+	
+	margin: 0 auto;
+	margin-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.dian{
+	width: 11px;
+	height: 11px;
+	background-color: black;
+	border-radius: 50%;
+	
+}
+.yuding{
+	width: 1260px;
+	height: 40px;
+	background-color: orange;
+	margin: 0 auto;
+	margin-top: 15px;
+	border: 2px yellow solid;
+	position: relative;
+}
+.yuding a{
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 38px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	
+}
+.jidi{
+	width: 1167px;
+	height: 126px;
+	/* background-color: pink; */
+	margin: 0 auto;
+	border-left: 1px orange solid;
+	border-right: 1px orange solid;
+	
+}
+.jidi-list{
+	width: 25%;
+	height: 100%;
+	/* background-color: green; */
+	border-right: 1px orange solid;
+	float: left;
+	position: relative;
+}
+.jidi-list1{
+	border-right:0;
+}
+.jidi-tu{
+	width: 50.4px;
+	height: 50.4px;
+	background-color: pink;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 50%;
+
+}
+.jidi-tu a{
+	font-size: 40px;
+	line-height: 50.4px;
+	margin-left: 6px;
+	border-radius: 50%;
+	color: orange;
+
+}
+.jidi h4{
+	font-size: 16px;
+	margin-bottom: 10px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 8px;
+	margin: auto;
+}
+.wenzi{
+	width: 1260px;
+	height: 24.8px;
+	/* background-color: blue; */
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.wenzi2{
+	margin-top: 0;
+}
+.wenzi h4{
+	font-size: 16px;
+	line-height: 24.8px;
+	text-align: center;
+}
+.fenjing{
+	width: 1120px;
+	height: 245.6px;
+	/* background-color: blue; */
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.img-fenjing1{
+	margin-right: 0;
+}
+.img-fenjing{
+	width: 363.325px;
+	height: 100%;
+	background-color: pink;
+	margin-right: 10px;
+	float: left;
+}
+.img-logo{
+	width: 300px;
+	height: 205px;
+	/* background-color: blue; */
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.weibu{
+	width: 100%;
+	height: 267.2px;
+	background-color: #fafafa;
+	float: left;
+}
+.weibu-shang{
+	width: 1024px;
+	height: 185.6px;
+	/* background-color: blue; */
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.weibu-box{
+	width: 330.75px;
+	height: 100%;
+	/* background-color: yellow; */
+	float: left;
+}
+.weibu-box h4{
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.weibu-box h5{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 6px;
+	
+}
+.weibu-box1{
+	width: 362.5px;
+	height: 100%;
+	/* background-color: yellow; */
+	float: left;
+}
+.weibu-box1 h4{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+.weibu-xia{
+	width: 1024px;
+	height: 20.8px;
+	/* background-color: blue; */
+	margin: 0 auto;
+	
+}
+.weibu-xia h4{
+	font-size: 12px;
+	text-align: center;
+	line-height: 20.8px;
+}
+.lianjie{
+
+}
+
